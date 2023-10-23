@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beic Motors</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!-- CSS Libraries -->
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/slick/slick.css" rel="stylesheet" />
+    <link href="lib/slick/slick-theme.css" rel="stylesheet" />
+    <style>
+      .navbar {
+        z-index: 1000;
+        position: absolute;
+        width: 100%;
+        background: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Add a background color with transparency */
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: rgba(0, 0, 0, 0.5)"
+    >
+      <a class="navbar-brand" href="index.html">Beic Motors</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="DucatiPanigale.html"
+                >Ducati Panigale</a
+              >
+              <a class="dropdown-item" href="DucatiMultistrada.html"
+                >Ducati Multistrada</a
+              >
+              <a class="dropdown-item" href="HarleyDavidson.html"
+                >Harley Davidson</a
+              >
+              <a class="dropdown-item" href="Kawasaki.html">Kawasaki Z900</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/d1.webp" style="height: 50vh" alt="Image 1" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5" style="justify-content: center;">
+      <div class="card" style="background-color: #9999;">
+        <div class="card-body">
+          <form id="form">
+            <h1>Contact Us</h1>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="1234 Main St"
+              />
+            </div>
+            <div class="form-group">
+              <label for="address2">Address 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address2"
+                placeholder="Apartment, studio, or floor"
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" />
+              </div>
+              <div class="form-group col-md-4">
+                <label for="state">State</label>
+                <select id="state" class="form-control">
+                  <option selected>Choose...</option>
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                  <option value="Assam">Assam</option>
+                  <option value="Bihar">Bihar</option>
+                  <option value="Chhattisgarh">Chhattisgarh</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Himachal Pradesh">Himachal Pradesh</option>
+                  <option value="Jharkhand">Jharkhand</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="Kerala">Kerala</option>
+                  <option value="Madhya Pradesh">Madhya Pradesh</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Manipur">Manipur</option>
+                  <option value="Meghalaya">Meghalaya</option>
+                  <option value="Mizoram">Mizoram</option>
+                  <option value="Nagaland">Nagaland</option>
+                  <option value="Odisha">Odisha</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Rajasthan">Rajasthan</option>
+                  <option value="Sikkim">Sikkim</option>
+                  <option value="Tamil Nadu">Tamil Nadu</option>
+                  <option value="Telangana">Telangana</option>
+                  <option value="Tripura">Tripura</option>
+                  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                  <option value="Uttarakhand">Uttarakhand</option>
+                  <option value="West Bengal">West Bengal</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="zip">Zip</label>
+                <input type="text" class="form-control" id="zip" />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="agree" />
+                <label class="form-check-label" for="gridCheck">
+                  Agree terms and conditions
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h2>Get in Touch</h2>
+              <div class="contact-info">
+                <p>
+                  <i class="fa fa-map-marker"></i>123 E Store, Los Angeles, USA
+                </p>
+                <p><i class="fa fa-envelope"></i>email@example.com</p>
+                <p><i class="fa fa-phone"></i>+123-456-7890</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h2>Follow Us</h2>
+              <div class="contact-info">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h2>Company Info</h2>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./form.js"></script>
+  </body>
+</html>

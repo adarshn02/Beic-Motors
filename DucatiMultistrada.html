@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beic Motors</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+
+    <!-- CSS Libraries -->
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/slick/slick.css" rel="stylesheet" />
+    <link href="lib/slick/slick-theme.css" rel="stylesheet" />
+    <style>
+      .navbar {
+        z-index: 1000;
+        position: absolute;
+        width: 100%;
+        background: rgba(
+          0,
+          0,
+          0,
+          0.5
+        ); /* Add a background color with transparency */
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: rgba(0, 0, 0, 0.5)"
+    >
+      <a class="navbar-brand" href="index.html">Beic Motors</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="DucatiPanigale.html"
+                >Ducati Panigale</a
+              >
+              <a class="dropdown-item" href="DucatiMultistrada.html"
+                >Ducati Multistrada</a
+              >
+              <a class="dropdown-item" href="HarleyDavidson.html"
+                >Harley Davidson</a
+              >
+              <a class="dropdown-item" href="Kawasaki.html">Kawasaki Z900</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/b3.jpg" alt="Image 1" />
+        </div>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <div class="about">
+      <div class="container-fluid">
+        <p
+          style="
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+          "
+        >
+          Your everyday wonder.
+        </p>
+        <div class="container">
+          <p style="padding: 30px">
+            The Ducati Multistrada family continues its evolution with the
+            Multistrada V2: the ideal bike to fully enjoy every route, versatile
+            in everyday use and in the city, always with the sportiness and
+            unmistakable style that characterize every Ducati. The new
+            twin-cylinder of the family of Ducati dual bikes is a 360° bike,
+            increasingly intuitive, comfortable, fun and accessible. Multistrada
+            V2 is a technologically advanced motorcycle, with a sophisticated
+            cycling and an extremely complete electronic package, without
+            forgetting the engine, the latest evolution of the 937 cc
+            Testastretta 11° unit, and represents the perfect gateway to the
+            Ducati tourer universe. During the development phases of this bike
+            the main points of focus were ergonomics, weight reduction, engine
+            updates and a series of upgrades that follow the philosophy of
+            "continuous improvement".
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bike">
+      <div class="container-fluid">
+        <h2
+          style="
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 45px;
+          "
+        >
+          Ducati Multistrada
+        </h2>
+        <video class="video1" autoplay loop muted>
+          <source src="img/multistrada.mp4" type="video/mp4" />
+        </video>
+        <a href="#"><img class="img1" src="img/b2.png" /> </a>
+        <p></p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="container-fluid">
+      <h3 style="text-align: center">Accessories</h3>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <img
+            src="img/b2.png"
+            style="height: 400px"
+            alt="Ducati Multistrada"
+          />
+        </div>
+        <div
+          class="col-lg-6 col-md-6 col-sm-6"
+          style="height: 50vh; overflow: scroll"
+        >
+          <h4>Choose your accessories</h4>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Exhaust systems
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <img
+                        src="img/accessories/racing_exhaust.jpeg"
+                        alt="Racing Exhaust"
+                        style="height: 200px; width: 200px"
+                      />
+                    </div>
+                    <div class="col-6" style="align-self: center">
+                      <h3>Racing Exhaust</h3>
+                      <div class="row">
+                        <div class="col-6">
+                          <b>+$3,075.00</b>
+                          <span
+                            id="racing_exhaust_qty"
+                            class="btn btn-primary disabled"
+                            style="visibility: hidden"
+                            >0</span
+                          >
+                        </div>
+                        <div class="col-6">
+                          <button
+                            class="btn btn-primary"
+                            id="racing_exhaust_btn"
+                            onclick="updateTotalPrice('3075.00', 'racing_exhaust')"
+                          >
+                            Add to cart
+                          </button>
+                          <span id="racing_exhaust_remove">
+                            <button
+                              class="btn-danger"
+                              style="visibility: hidden"
+                            >
+                              Remove
+                            </button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+
+                  <div class="row">
+                    <div class="col-6">
+                      <img
+                        src="img/accessories/silencer.jpeg"
+                        alt="Silencer"
+                        style="height: 200px; width: 200px"
+                      />
+                    </div>
+                    <div class="col-6" style="align-self: center">
+                      <h3>Silencer</h3>
+                      <div class="row">
+                        <div class="col-6">
+                          <b>+$2,050.00</b>
+                          <span
+                            id="silencer_qty"
+                            class="btn btn-primary disabled"
+                            style="visibility: hidden"
+                            >0</span
+                          >
+                        </div>
+                        <div class="col-6">
+                          <button
+                            class="btn btn-primary"
+                            id="silencer_btn"
+                            onclick="updateTotalPrice('2050.00', 'silencer')"
+                          >
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="true"
+                    aria-controls="collapseTwo"
+                  >
+                    Special Materials
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <img
+                        src="img/accessories/engine_guard_plate.jpeg"
+                        alt="Racing Exhaust"
+                        style="height: 200px; width: 200px"
+                      />
+                    </div>
+                    <div class="col-6" style="align-self: center">
+                      <h3>Engine Guard Plate</h3>
+                      <div class="row">
+                        <div class="col-6">
+                          <b>+$512.50</b>
+                          <span
+                            id="engine_guard_qty"
+                            class="btn btn-primary disabled"
+                            style="visibility: hidden"
+                            >0</span
+                          >
+                        </div>
+                        <div class="col-6">
+                          <button
+                            class="btn btn-primary"
+                            id="engine_guard_btn"
+                            onclick="updateTotalPrice('512.50', 'engine_guard')"
+                          >
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+
+                  <div class="row">
+                    <div class="col-6">
+                      <img
+                        src="img/accessories/number_plate_holder.jpeg"
+                        alt="Silencer"
+                        style="height: 200px; width: 200px"
+                      />
+                    </div>
+                    <div class="col-6" style="align-self: center">
+                      <h3>Number Plate Holder</h3>
+                      <div class="row">
+                        <div class="col-6">
+                          <b>+$512.50</b>
+                          <span
+                            id="number_plate_qty"
+                            class="btn btn-primary disabled"
+                            style="visibility: hidden"
+                            >0</span
+                          >
+                        </div>
+                        <div class="col-6">
+                          <button
+                            class="btn btn-primary"
+                            id="number_plate_btn"
+                            onclick="updateTotalPrice('512.50', 'number_plate')"
+                          >
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="true"
+                    aria-controls="collapseThree"
+                  >
+                    Chassis and Brake systems
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6">
+                      <img
+                        src="img/accessories/clutch_lever.jpeg"
+                        alt="Racing Exhaust"
+                        style="height: 200px; width: 200px"
+                      />
+                    </div>
+                    <div class="col-6" style="align-self: center">
+                      <h3>Clutch Lever</h3>
+                      <div class="row">
+                        <div class="col-6">
+                          <b>+$200.61</b>
+                          <span
+                            id="clutch_lever_qty"
+                            class="btn btn-primary disabled"
+                            style="visibility: hidden"
+                            >0</span
+                          >
+                        </div>
+                        <div class="col-6">
+                          <button
+                            class="btn btn-primary"
+                            id="clutch_lever_btn"
+                            onclick="updateTotalPrice('200.61', 'clutch_lever')"
+                          >
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+
+                  <div class="row">
+                    <div class="col-6">
+                      <img
+                        src="img/accessories/brake_lever.jpeg"
+                        alt="Silencer"
+                        style="height: 200px; width: 200px"
+                      />
+                    </div>
+                    <div class="col-6" style="align-self: center">
+                      <h3>Brake Lever</h3>
+                      <div class="row">
+                        <div class="col-6">
+                          <b>+$200.61</b>
+                          <span
+                            id="brake_lever_qty"
+                            class="btn btn-primary disabled"
+                            style="visibility: hidden"
+                            >0</span
+                          >
+                        </div>
+                        <div class="col-6">
+                          <button
+                            class="btn btn-primary"
+                            id="brake_lever_btn"
+                            onclick="updateTotalPrice('200.61', 'brake_lever')"
+                          >
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sticky-div">
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6"></div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="contiainer bg-dark text-white rounded">
+                <h3 class="p-3">
+                  Total
+                  <span class="float-right">
+                    $
+                    <span id="total_price" value="12000"> 12,000.00 </span>
+                  </span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="image-container">
+      <img src="img/b4.jpg" class="img3" alt="Image 1" /><br />
+      <div class="caption">
+        5 Kg less than the Multistrada 950 thanks to new engine and vehicle
+        components.
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="img/b5.jpg" alt="Image 2" class="img3" /><br />
+      <div class="caption">
+        The 937 cc Testastretta 11° engine has been lightened and updated in the
+        gearbox and clutch to ensure smoother and more precise running.
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="img/b6.jpg" alt="Image 3" class="img3" /><br />
+      <div class="caption">
+        Ergonomics have been revised to provide greater accessibility in terms
+        of seat height (830 mm - 790mm) and inseam arch.
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="img/b7.jpg" alt="Image 4" class="img3" /><br />
+      <div class="caption">
+        Unmistakeably Multistrada design, with imposing, streamlined shapes. New
+        refined graphics, that show the name of the bike on both sides for an
+        elegant and sporty look at the same time.
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="img/b8.jpg" alt="Image 5" class="img3" /><br />
+      <div class="caption">
+        The electronic equipment is extremely complete, especially in the S
+        version. The latest generation of driver assistance systems are
+        effective and never invasive, ensuring safety and comfort in every
+        condition.
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="img/b9.jpg" alt="Image 6" class="img3" /><br />
+      <div class="caption">
+        Agile and intuitive, the 19" front wheel ensure maximum versatility: a
+        smooth, rounded and relaxing ride that is also precise and effective
+        when needed.
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="container-fluid">
+      <section
+        id="dealer"
+        class="container-fluid"
+        style="justify-content: center; display: flex; background-color: #9999"
+      >
+        <br />
+        <div class="dealer1">
+          <h1 style="text-align: center">Contact Dealer</h1>
+          <div class="container">
+            <div class="ducati">
+              <img
+                src="img/de.png"
+                alt="Image 1"
+                class="image-container.centre"
+                style="left: 20%"
+              />
+              <div class="text"></div>
+            </div>
+            <p>
+              Search by city, state, or zip code to find an authorized dealer
+              near you.<br />
+              <a
+                href="contact_us.html"
+                class="btn btn-secondary font-weight-bold py-2 px-4 mt-2"
+                >Learn More</a
+              >
+            </p>
+            <br />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <hr />
+
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h2>Get in Touch</h2>
+              <div class="contact-info">
+                <p>
+                  <i class="fa fa-map-marker"></i>123 E Store, Los Angeles, USA
+                </p>
+                <p><i class="fa fa-envelope"></i>email@example.com</p>
+                <p><i class="fa fa-phone"></i>+123-456-7890</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h2>Follow Us</h2>
+              <div class="contact-info">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-widget">
+              <h2>Company Info</h2>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Condition</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./accessories.js"></script>
+  </body>
+</html>
